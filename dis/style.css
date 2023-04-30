@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+ header nav ul li{
+    text-decoration: none; 
+       
+ }
+ header{
+    background-color: black;
+    padding: 20px;
+ }
+
+.child1{
+    color: white;
+}
+ .p-box{
+    width: 700px;
+    height: 400px;
+    margin:  30px;
+   
+ }
+
+ .p-box h2{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    border:5px grey solid;
+    border-radius: 80%;
+ }
