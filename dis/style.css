@@ -8,18 +8,20 @@ a{
     padding: 0 20px;
     color: white;
 }
+
 header nav{
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    
 }
 header nav ul{
     display: flex;
     list-style: none;
+    margin-right: auto;
+    margin-left: auto;
 }
  header nav ul li{
     text-decoration: none; 
+    margin: 0 20px;
        
  }
  header{
@@ -29,6 +31,16 @@ header nav ul{
 
 .child1{
     color: white;
+}
+.child2{
+    background-color:orange;
+    position: absolute;
+    right: 0;
+    height: 10%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
  .p-box{
     width: 700px;
